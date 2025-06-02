@@ -1,0 +1,120 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+}
+
+header {
+  background: linear-gradient(to right, #547da1, #00f2fe);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+#logo {
+  height: 30px;
+  width: 100px;
+}
+
+.hero {
+  padding: 50px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+.btn {
+  background: white;
+  color: #00f2fe;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: black;
+}
+
+#courses,
+#testimonials,
+#contact {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: rgb(124, 216, 186);
+}
+
+.course-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 200px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all;
+}
+.card:hover {
+  background-color: #5ff7ff;
+  transform: scale(1.1);
+  transition-duration: 0.3s;
+  transition-delay: 0.1s;
+  transition-timing-function: ease-in-out;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form input,
+form textarea {
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+form button {
+  background: #479fed;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+footer {
+  background: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 30px;
+}
